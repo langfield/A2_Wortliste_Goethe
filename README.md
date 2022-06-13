@@ -11,7 +11,7 @@ pip install anki-ki
 ki clone <collection_path>
 cd collection
 git submodule add https://github.com/langfield/A2_Wortliste_Goethe
-git commit -m "Add submodule `A2_Wortliste_Goethe`"
+git commit -m "Add submodule 'A2_Wortliste_Goethe'"
 ki push
 ```
 
