@@ -1,0 +1,260 @@
+{
+    "1497484511582": {
+        "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+        "did": 1497484858708,
+        "flds": [
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Wort_DE",
+                "ord": 0,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Wort_EN",
+                "ord": 1,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Artikel",
+                "ord": 2,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Plural",
+                "ord": 3,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Hinweis",
+                "ord": 4,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Verbformen",
+                "ord": 5,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Satz1_DE",
+                "ord": 6,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Satz1_EN",
+                "ord": 7,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Satz2_DE",
+                "ord": 8,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Satz2_EN",
+                "ord": 9,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Satz3_DE",
+                "ord": 10,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Satz3_EN",
+                "ord": 11,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Satz4_DE",
+                "ord": 12,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Satz4_EN",
+                "ord": 13,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Original_Order",
+                "ord": 14,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Audio_Wort",
+                "ord": 15,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Audio_S1",
+                "ord": 16,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Audio_S2",
+                "ord": 17,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Audio_S3",
+                "ord": 18,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            },
+            {
+                "description": "",
+                "font": "Arial",
+                "media": [],
+                "name": "Audio_S4",
+                "ord": 19,
+                "rtl": false,
+                "size": 20,
+                "sticky": false
+            }
+        ],
+        "id": 1497484511582,
+        "latexPost": "\\end{document}",
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexsvg": false,
+        "mod": 1516787573,
+        "name": "Basic (and reversed card)-75aea",
+        "req": [
+            [
+                0,
+                "any",
+                [
+                    0,
+                    15
+                ]
+            ],
+            [
+                1,
+                "any",
+                [
+                    1
+                ]
+            ]
+        ],
+        "sortf": 0,
+        "tags": [],
+        "tmpls": [
+            {
+                "afmt": "{{#Artikel}}{{Artikel}}{{/Artikel}}\n{{Wort_DE}}\n{{#Plural}}{{Plural}}{{/Plural}}\n{{Audio_Wort}}\n\n<div style='font-family: Arial; font-size: 16px;'>\n{{#Verbformen}}<br>Verbformen: {{Verbformen}}{{/Verbformen}}\n{{#Hinweis}}<br>Hinweis: {{Hinweis}}{{/Hinweis}}\n</div>\n\n<hr id=answer>\n\n{{Wort_EN}}\n\n<hr>\n\n<div style=\"display:none\">[sound:_LongSilence.mp3]</div>\n\n\n{{#Satz1_DE}}\n<div style='font-family: Arial; font-size: 16px;'>{{Satz1_DE}}{{Audio_S1}}</div>\n<div style='font-family: Arial; font-size: 14px;'>{{hint:Satz1_EN}}</div><br>\n{{/Satz1_DE}}\n\n{{#Satz2_DE}}\n<div style='font-family: Arial; font-size: 16px;'>{{Satz2_DE}}{{Audio_S2}}</div>\n<div style='font-family: Arial; font-size: 14px;'>{{hint:Satz2_EN}}</div><br>\n{{/Satz2_DE}}\n\n{{#Satz3_DE}}\n<div style='font-family: Arial; font-size: 16px;'>{{Satz3_DE}}{{Audio_S3}}</div>\n<div style='font-family: Arial; font-size: 14px;'>{{hint:Satz3_EN}}</div><br>\n{{/Satz3_DE}}\n\n{{#Satz4_DE}}\n<div style='font-family: Arial; font-size: 16px;'>{{Satz4_DE}}{{Audio_S4}}</div>\n<div style='font-family: Arial; font-size: 14px;'>{{hint:Satz4_EN}}</div><br>\n{{/Satz4_DE}}\n\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 1",
+                "ord": 0,
+                "qfmt": "{{Wort_DE}}{{Audio_Wort}}\n\n\n\n\n\n"
+            },
+            {
+                "afmt": "{{Wort_EN}}\n\n<hr id=answer>\n\n{{#Artikel}}{{Artikel}}{{/Artikel}}\n{{Wort_DE}}\n{{#Plural}}{{Plural}}{{/Plural}}\n{{Audio_Wort}}\n\n<div style='font-family: Arial; font-size: 16px;'>\n{{#Verbformen}}<br>Verbformen: {{Verbformen}}{{/Verbformen}}\n{{#Hinweis}}<br>Hinweis: {{Hinweis}}{{/Hinweis}}\n</div>\n\n<hr>\n\n<div style=\"display:none\">[sound:_LongSilence.mp3]</div>\n\n\n{{#Satz1_EN}}\n<div style='font-family: Arial; font-size: 16px;'>{{Satz1_EN}}{{Audio_S1}}</div>\n<div style='font-family: Arial; font-size: 14px;'>{{hint:Satz1_DE}}</div><br>\n{{/Satz1_EN}}\n\n{{#Satz2_EN}}\n<div style='font-family: Arial; font-size: 16px;'>{{Satz2_EN}}{{Audio_S2}}</div>\n<div style='font-family: Arial; font-size: 14px;'>{{hint:Satz2_DE}}</div><br>\n{{/Satz2_EN}}\n\n{{#Satz3_EN}}\n<div style='font-family: Arial; font-size: 16px;'>{{Satz3_EN}}{{Audio_S3}}</div>\n<div style='font-family: Arial; font-size: 14px;'>{{hint:Satz3_DE}}</div><br>\n{{/Satz3_EN}}\n\n{{#Satz4_EN}}\n<div style='font-family: Arial; font-size: 16px;'>{{Satz4_EN}}{{Audio_S4}}</div>\n<div style='font-family: Arial; font-size: 14px;'>{{hint:Satz4_DE}}</div><br>\n{{/Satz4_EN}}\n",
+                "bafmt": "",
+                "bfont": "",
+                "bqfmt": "",
+                "bsize": 0,
+                "did": null,
+                "name": "Card 2",
+                "ord": 1,
+                "qfmt": "{{Wort_EN}}\n"
+            }
+        ],
+        "type": 0,
+        "usn": -1,
+        "vers": []
+    }
+}
